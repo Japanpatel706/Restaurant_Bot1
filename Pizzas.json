@@ -1,0 +1,70 @@
+{
+  "id": "9bb8b211-ce0b-4bfe-95fc-bfbb3bc1e7ce",
+  "name": "Pizzas",
+  "auto": true,
+  "contexts": [
+    "await_choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "we have only two flavors of pizza. Can you choose which one you like",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Peeper Barbeque Pizza"
+            },
+            {
+              "title": "Delux VEG Pizza"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

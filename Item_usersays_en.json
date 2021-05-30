@@ -1,0 +1,54 @@
+[
+  {
+    "id": "5171bf37-5e56-446f-ba25-8885b1990e81",
+    "data": [
+      {
+        "text": "Tomato Soup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9f5f00a-f208-4859-8662-828bd0fe9e5a",
+    "data": [
+      {
+        "text": "Paneer Tikka",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8e51a1e3-8dcb-441f-9bc2-b93f550eef54",
+    "data": [
+      {
+        "text": "Ice Cream",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d73a9da-e270-41ad-b6dd-c7e5e759caca",
+    "data": [
+      {
+        "text": "Soda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

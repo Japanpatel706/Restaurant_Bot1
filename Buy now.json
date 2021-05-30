@@ -1,0 +1,124 @@
+{
+  "id": "3872d18c-65dc-443e-b2cc-6c580002db58",
+  "name": "Buy now",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c895cdb8-c13c-4e66-b74c-c1bfaed0912a",
+          "name": "given-name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$given-name",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "May I know your name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7dcbfe3a-ecfc-457f-976b-4a9ad3d7b71e",
+          "name": "email",
+          "required": false,
+          "dataType": "@sys.email",
+          "value": "$sys.email",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3cf426a5-1253-4b36-a345-9d29e9964296",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please provide your phone-number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "964a88b4-6524-4f25-94a1-e0b0c89b9636",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "provide youe address to deliver your order"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Your order is booked. You will get a conformation message soon..",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
